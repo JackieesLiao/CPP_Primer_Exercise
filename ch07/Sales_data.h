@@ -14,6 +14,16 @@ struct Sales_data
     {
         return bookNo;
     }
+
+    double avg_price() const
+    {
+        if (units_sold == 0)
+        {
+            return 0.0;
+        }
+        return revenue / units_sold;
+    }
+
     Sales_data &combine(const Sales_data &rhs)
     {
         units_sold += rhs.units_sold;
