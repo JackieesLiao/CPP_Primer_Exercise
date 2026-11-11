@@ -1,0 +1,8 @@
+CMake is a tool that builds software.
+CMake reads a file named CMakeLists.txt.
+The file lists targets and their sources.
+Targets can depend on other targets.
+CMake supports many compilers and platforms.
+A build directory keeps generated files.
+Generators turn CMake logic into build files.
+Compilers turn sources into programs.
